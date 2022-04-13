@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --body-bg: #222;
+  --num: #fff;
+  --border: #2a2a2a;
+  --c: #222;
+
+  --blue: #0cd0cd;
+  --pin: #cf1596;
+  --gre : #aad800;
+  --pur: #8c52ff;
+  --ora: #fcb707;
+}
+
+.l-mode:root {
+    
+  --body-bg: #fff;
+  --num: #2a2a2a;
+  --border: rgb(221, 220, 220);
+  --c: rgb(255, 149, 50);
+
+
+  --blue: #fff;
+  --pin: #fff;
+  --gre : #fff;
+  --ora: #fff;
+  --pur: rgb(255, 53, 53);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body-bg);
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  border: 1px solid rgb(161, 161, 161);
+  padding: 20px;
+  box-shadow: inset 0 0, 0 0 1em #a4a4a4;
+  border-radius: 2%;
+}
+
+input {
+  color: var(--num);
+  padding: 17px;
+  outline: none;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  border-radius: 25%;
+  border-color: var(--border);
+}
+
+.num {
+  width: 64px;
+  height: 67px;
+}
+
+.text {
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1 {
+  width: 24px;
+  height: 26px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.main {
+  display: inline-block;
+}
+
+.maincolor {
+  background-color: var(--body-bg);
+}
+
+.text1 {
+    background-color: var(--c);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.pin {
+  background-color: var(--pin);
+}
+
+.gre {
+  background-color: var(--gre);
+}
+
+.pur {
+  background-color: var(--pur);
+}
+
+.ora {
+  background-color: var(--ora);
+}
+
+#switch {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+label {
+  color: rgb(221, 221, 221);
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+}
